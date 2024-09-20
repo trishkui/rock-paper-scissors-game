@@ -6,8 +6,10 @@ const player =document.getElementById("player");
 function computerChoice(){
     const choices=["rock", "paper", "scissors"];
     const choice = Math.floor(Math.random()*choices.length);
+    // if else  for checking the results of the choice function call
 
-    let result="";
+
+    //return the choice.
 }
 
 // console.log(computerChoice());
