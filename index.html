@@ -9,8 +9,11 @@
 <body>
     <section class="game">
         <div class="headers">
-           <div id="header">&copy; <a href="#" > Wangui Irungu</a> </header></div>
-           <div id="header2">computer 0 0 player</div>
+           <div id="header">&copy; <a href="#" >  2024 Wangui Irungu</a></div>
+           <div class="scoreboard">
+           <div id="computer">computer 0</div>
+           <div id="player">0 player</div>
+           </div>
         </div>
         <div class="play" id="comp">
            <h3>computer</h3> 
@@ -26,9 +29,9 @@
  
          </div>
          <div class="choices">
-            <button onclick="modifyEvent('&#9994;')">&#9994; rock</button>
-            <button onclick="modifyEvent('&#128400')">&#128400; paper</button>
-            <button onclick="modifyEvent('&#9996')">&#9996;scissors</button>
+            <div class="choice" id="r">&#9994; <p>rock</p></div>
+            <div class="choice" id="p">&#128400; <p>paper</p></div>
+            <div class="choice" id="s">&#9996;<p>scissors</p></div>
          </div>
 
 
